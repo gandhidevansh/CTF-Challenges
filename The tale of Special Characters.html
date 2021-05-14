@@ -3,6 +3,7 @@
 <head>
 	<title>The tale of Special Characters</title>
 <script>
+	<!-- Nice Try :) -->
 function bypass() 
 {
   var x = document.forms["myForm"]["uname"].value;
@@ -22,8 +23,7 @@ function bypass()
 <body>
 <h2 text align="center">Lets Make Invalid Valid!!</h2>
 <p text align="center">Only Alphanumneric input allowed</p>
-<!--Nice Try But No Flags here!   
-  Burping might help -->
+<!-- Burping might help -->
 <form name="myForm" action="https://ctfpractice.000webhostapp.com/print.php" onsubmit="return bypass()" method="post" align="center">
   Name: <input type="text" name="uname">
   <input type="submit" value="Go">
