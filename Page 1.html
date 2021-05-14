@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The tale of Special Characters</title>
+<script>
+function bypass() 
+{
+  var x = document.forms["myForm"]["uname"].value;
+  var letters = /^[0-9a-zA-Z]+$/;
+  if (x.match(letters)) 
+  { 
+    return true;
+  }
+  else
+  {
+  	alert('Not a Valid Input!!');
+  	return false;
+  }
+}
+</script>
+</head>
+<body>
+<h2 text align="center">Lets Make Invalid Valid!!</h2>
+<p text align="center">Only Alphanumneric input allowed</p>
+<!--Nice Try But No Flags here!   
+  Burping might help -->
+<form name="myForm" action="print.php" onsubmit="return bypass()" method="post" align="center">
+  Name: <input type="text" name="uname">
+  <input type="submit" value="Go">
+</form>
+</body>
+</html>
