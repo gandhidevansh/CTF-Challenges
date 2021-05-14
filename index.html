@@ -9,6 +9,14 @@ function bypass()
   var letters = /^[0-9a-zA-Z]+$/;
   if (x.match(letters)) 
   { 
+	  var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        x = this.responseText;
+      }
+    };
+    xmlhttp.open("POST", "https://ctfpractice.000webhostapp.com/print.php?q=" + str, true);
+    xmlhttp.send();
     return true;
   }
   else
