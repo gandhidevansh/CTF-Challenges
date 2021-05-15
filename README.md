@@ -4,4 +4,4 @@ Go to https://gandhidevansh.github.io/CTF-Challenges/index.html to test your ski
 
 
 
-More Challenges comming soon!
+More Challenges coming soon!
