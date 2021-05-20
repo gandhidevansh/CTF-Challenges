@@ -1,4 +1,4 @@
-#CTF Challenges
+# CTF-Challenges
 The idea is to build a CTF platform where the noobs (like me :) ) can find their strength and confidence which can turn them into the knowbies. So, trying to put the effort to make a noobie-friendly CTF resource. 
 
 
