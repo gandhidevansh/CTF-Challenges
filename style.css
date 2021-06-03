@@ -45,6 +45,10 @@ body {
   }
 }
 /* ------------------------------------------------------------------------- */
+.bottom{
+    position: relative;
+    bottom: 0px;
+}
 .topright {
   position: absolute;
   top: 0px;
