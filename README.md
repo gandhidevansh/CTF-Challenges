@@ -31,3 +31,6 @@ Any kind of error reporting or suggestions is welcomed.
 
 More Challenges coming soon!
 
+
+
+[HactivityCon 2021 CTF Writeup](https://infosecwriteups.com/hactivitycon-2021-ctf-writeup-23ae1f6f06e1)
