@@ -1,5 +1,9 @@
+
+function setvalues() {
 var c = 0;
 var txt = '< d3vil CTF />';
+typeeffect();
+}
 
 function typeeffect() {
   if (c < txt.length) {
