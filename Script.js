@@ -1,4 +1,3 @@
-<script>
 var c = 0;
 var txt = '< d3vil CTF />';
 
@@ -9,4 +8,4 @@ function typeeffect() {
     setTimeout(typeeffect, 200);
   }
 }
-</script>
+
