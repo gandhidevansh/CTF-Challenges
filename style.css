@@ -1,15 +1,15 @@
 <style type="text/css">
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
   width: 7px;
 }
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
   background: blue; 
   border-radius: 20px;
 }
-::-webkit-scrollbar-track-piece{
+html::-webkit-scrollbar-track-piece{
 background: white; 
 }
-::-webkit-scrollbar-thumb:hover {
+html::-webkit-scrollbar-thumb:hover {
   background: violet; 
 }
 /* ------------------------------------------------------------------------- */
