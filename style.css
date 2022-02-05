@@ -13,10 +13,10 @@ html::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 html::-webkit-scrollbar-track-piece{
-background: white; 
+background: transparent; 
 }
 html::-webkit-scrollbar-thumb:hover {
-  background: violet; 
+  background: lightblue; 
 }
 /* ------------------------------------------------------------------------- */
 body {
