@@ -12,11 +12,11 @@ html::-webkit-scrollbar-thumb {
   background: blue; 
   border-radius: 20px;
 }
-html::-webkit-scrollbar-track-piece{
-background: transparent; 
+html::-webkit-scrollbar-track-piece {
+  background-color:transparent;
 }
 html::-webkit-scrollbar-thumb:hover {
-  background: lightblue; 
+  background: black; 
 }
 /* ------------------------------------------------------------------------- */
 body {
