@@ -23,7 +23,7 @@ Benefits of doing CTF challenges:
 
 
 
-So just start testing your skills at https://gandhidevansh.github.io/CTF-Challenges/index.html!
+So just start testing your skills [here](https://devilctf.netlify.app/)!
 
 
 
